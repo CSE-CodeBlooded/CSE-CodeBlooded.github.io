@@ -5,10 +5,10 @@ theme: hextra
 
 menu:
   main:
-    - name: Documentation
-      pageRef: /docs 
+    - name: Notes
+      pageRef: /notes
       weight: 1
-    - name: Blog
+    - name: Blogs
       pageRef: /blog
       weight: 2
     - name: About
@@ -20,6 +20,32 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/"
+      url: "https://github.com/CSE-Codeblooded/"
       params:
         icon: github
+
+params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  page:
+    contextMenu:
+      enable: true
+      links:
+        - name: Open in ChatGPT
+          icon: chatgpt
+          url: "https://chatgpt.com/?hints=search&q=I%27m+looking+at+this+documentation%3A+{url}%0AHelp+me+understand+how+to+use+it."
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+  externalLinkDecoration: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal

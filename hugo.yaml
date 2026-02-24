@@ -1,6 +1,6 @@
-baseURL: https://CSE-Codeblooded.github.io/
+baseURL: https://CSEClass25.github.io/
 languageCode: en-us
-title: CSE-Codeblooded
+title: CSEClass25
 theme: hextra
 
 menu:
@@ -20,7 +20,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/CSE-Codeblooded/"
+      url: "https://github.com/CSEClass25/"
       params:
         icon: github
 
@@ -49,3 +49,6 @@ params:
     displayCopyright: true
     displayPoweredBy: false
     width: normal
+
+
+
